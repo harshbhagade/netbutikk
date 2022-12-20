@@ -1,0 +1,96 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: inline-flex;
+    background-color: aqua;
+    align-items: center;
+}
+.navigation{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 25px;
+}
+.brand{
+    margin: 0 25px;
+    flex: 1;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-right: 25px;
+}
+.menu li a{
+    text-decoration: none;
+    margin: 0 25px;
+}
+.menu li a:hover{
+    text-decoration: underline;
+}
+.search-input{
+    background-color: rgb(202, 214, 226);
+}
+
+.main{
+    margin-top: 150px;
+}
+
+.categoryImg {
+    width: 250px;
+    height: 200px;
+}
+
+.category {
+    width: 250px;
+    height: 250px;
+    border-style: dotted;
+}
+#sahid{
+    font-size: 65px;
+}
+
+.marketing { 
+    display: flex;
+}
+.airtel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a:link, a:visited {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(97, 163, 163);
+}
+.galary{
+    width: 250px;
+    height: auto;
+    border: 2px solid #ccc;
+    float: left;
+}
+.galary:hover{
+    border: 2px dotted black;
+}
+.sky{
+    width: 100%;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+p{
+    padding: 15px;
+    text-align: center;
+    color: rgb(85, 5, 18);
+}
